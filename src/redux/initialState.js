@@ -1,7 +1,7 @@
 const initialState = {
     lists: [
         {
-            id: 1,
+            id: '1',
             title: 'Things to do...',
             description: 'Interesting things I want to check out'
         },
