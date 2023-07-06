@@ -4,8 +4,8 @@ import NavBar from './components/NavBar/NavBar.js';
 import Home from './components/Home/Home.js';
 import Favorite from './components/Favorite/Favorite.js';
 import About from './components/About/About.js';
-import NotFound from './components/NotFound/NotFound';
-import List from './components/List/List';
+import NotFound from './components/NotFound/NotFound.js';
+import List from './components/List/List.js';
 
 const App = () => {
   return (

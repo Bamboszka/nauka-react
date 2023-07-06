@@ -11,3 +11,12 @@
     justify-content: space-between;
     font-weight: bold;
 }
+
+.button {
+    border: none;
+    cursor: pointer;
+}
+
+.isActive {
+    color: $color-gold;
+}
