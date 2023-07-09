@@ -7,7 +7,7 @@ import { getFavoriteCard } from '../../redux/store';
 
 const Favorite = () => {
     const favoriteCards = useSelector(getFavoriteCard);
-    if (favoriteCards.length) {
+    if (!favoriteCards.length) {
         return (
             <div className={styles.favorite}>
                 <PageTitle>No cards..</PageTitle>
